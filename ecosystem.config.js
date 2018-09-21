@@ -6,7 +6,7 @@ module.exports = {
 	deploy: {
 		production: {
 			user: 'ubuntu',
-			host: 'ec2-54-201-206-134.us-west-2.compute.amazonaws.com',
+			host: 'ec2-35-160-3-32.us-west-2.compute.amazonaws.com',
 			key: '~/.ssh/webserver.pem',
 			ref: 'origin/master',
 			repo: 'git@github.com:sprocketjockey/fitting-exploder.git',
